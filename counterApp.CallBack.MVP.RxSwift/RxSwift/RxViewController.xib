@@ -8,7 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RxViewController" customModule="counterApp_CallBack_MVP_RxSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="countDownButton" destination="C1Z-0v-8YE" id="Bsa-62-GFn"/>
+                <outlet property="countLabel" destination="q5t-Qa-F43" id="eM4-Wo-JMc"/>
+                <outlet property="countUpButton" destination="e5m-Af-hve" id="kHc-lY-8fp"/>
+                <outlet property="resetCountButton" destination="Hc4-f0-ZEY" id="tUD-2Y-v7V"/>
+                <outlet property="view" destination="WyL-bQ-eEc" id="RGO-Rr-m73"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="WyL-bQ-eEc">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>

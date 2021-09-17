@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let navigationController =
-            UINavigationController(rootViewController: MVPViewController()) // ←ここ変えるとMVPとか切り替えられる
+            UINavigationController(rootViewController: RxViewController()) // ←ここ変えるとMVPとか切り替えられる
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
         return true

@@ -19,6 +19,8 @@
 		2461B59926F4476F009BB1AD /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2461B59826F4476F009BB1AD /* RxViewController.xib */; };
 		2461B59B26F447A4009BB1AD /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461B59A26F447A4009BB1AD /* MVPViewController.swift */; };
 		2461B59D26F447D1009BB1AD /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461B59C26F447D1009BB1AD /* MVPPresenter.swift */; };
+		2461B59F26F45029009BB1AD /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461B59E26F45029009BB1AD /* RxViewModel.swift */; };
+		2461B5A126F45035009BB1AD /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461B5A026F45035009BB1AD /* RxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		2461B59826F4476F009BB1AD /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
 		2461B59A26F447A4009BB1AD /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
 		2461B59C26F447D1009BB1AD /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
+		2461B59E26F45029009BB1AD /* RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
+		2461B5A026F45035009BB1AD /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		4165D88BB8E125E7F1766D4C /* Pods_counterApp_CallBack_MVP_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_counterApp_CallBack_MVP_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		978D997FF157ABE2CED5B4B3 /* Pods-counterApp.CallBack.MVP.RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-counterApp.CallBack.MVP.RxSwift.release.xcconfig"; path = "Target Support Files/Pods-counterApp.CallBack.MVP.RxSwift/Pods-counterApp.CallBack.MVP.RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		B843ED040997B4820E15C9B2 /* Pods-counterApp.CallBack.MVP.RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-counterApp.CallBack.MVP.RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-counterApp.CallBack.MVP.RxSwift/Pods-counterApp.CallBack.MVP.RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				2461B59826F4476F009BB1AD /* RxViewController.xib */,
+				2461B59E26F45029009BB1AD /* RxViewModel.swift */,
+				2461B5A026F45035009BB1AD /* RxViewController.swift */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -248,8 +254,10 @@
 			files = (
 				2461B58026F3491B009BB1AD /* ViewController.swift in Sources */,
 				2461B59B26F447A4009BB1AD /* MVPViewController.swift in Sources */,
+				2461B5A126F45035009BB1AD /* RxViewController.swift in Sources */,
 				2461B57C26F3491B009BB1AD /* AppDelegate.swift in Sources */,
 				2461B57E26F3491B009BB1AD /* SceneDelegate.swift in Sources */,
+				2461B59F26F45029009BB1AD /* RxViewModel.swift in Sources */,
 				2461B59D26F447D1009BB1AD /* MVPPresenter.swift in Sources */,
 				2461B59526F444F4009BB1AD /* CallBackViewController.swift in Sources */,
 			);

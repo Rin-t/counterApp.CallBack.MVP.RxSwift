@@ -1,4 +1,4 @@
-//
+
 //  SceneDelegate.swift
 //  counterApp.CallBack.MVP.RxSwift
 //
